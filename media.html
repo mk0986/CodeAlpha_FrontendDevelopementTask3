@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="media-player">
+        <video id="video" width="600" controls>
+            <source src="Song 1.mp3" type="video/mp3">
+        
+        </video>
+        <div class="controls">
+            <button id="play-pause">Play</button>
+            <input type="range" id="seek-bar" value="0">
+            <button id="mute">Mute</button>
+            <input type="range" id="volume-bar" value="1" max="1" step="0.1">
+            <button id="full-screen">Full-Screen</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
